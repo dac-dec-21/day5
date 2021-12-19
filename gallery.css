@@ -1,0 +1,6 @@
+.div {
+  background: linear-gradient(lightpink, hotpink);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
