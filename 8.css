@@ -3,6 +3,18 @@ body {
   margin: 0;
 }
 
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: hotpink;
+  }
+}
+
 div div::first-letter {
   font-size: 21px;
 }
