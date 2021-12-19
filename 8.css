@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+}
+
+div div::first-letter {
+  font-size: 21px;
+}
+
+div div:nth-child(even) {
+  background: tomato;
+  color: white;
+  padding: 8px;
+  margin: 0;
+}
+
+div div:nth-child(odd) {
+  background: royalblue;
+  color: white;
+  padding: 8px;
+  margin: 0;
+}
+
+.div1 {
+  height: 100px;
+  width: 100px;
+  background: red;
+  border: 10px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  background: green;
+  border: 10px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div[name="js"] {
+  color: gold;
+}
